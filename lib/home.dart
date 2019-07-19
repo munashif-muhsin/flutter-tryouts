@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tryouts/example_data.dart';
+import 'package:tryouts/home_list_data.dart';
 
 class HomePage extends StatefulWidget {
   @override

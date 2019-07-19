@@ -1,4 +1,4 @@
-import 'package:tryouts/pages/reflectly.dart';
+import 'package:tryouts/pages/reflectly/reflectly.dart';
 
 List<Map<String, dynamic>> exampleData = [
   {
