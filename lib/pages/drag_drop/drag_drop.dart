@@ -30,7 +30,8 @@ class _DragDropPageState extends State<DragDropPage> {
       builder: (BuildContext context, List<String> incoming, List rejected) {
         if (score[choice] == true) {
           return Container(
-            color: Colors.white,
+            width: MediaQuery.of(context).size.width - 130,
+            color: Colors.white.withOpacity(0),
             child: Text(
               'Correct',
               textAlign: TextAlign.center,

@@ -1,4 +1,5 @@
 import 'package:tryouts/pages/drag_drop/drag_drop.dart';
+import 'package:tryouts/pages/giphy/giphy.dart';
 import 'package:tryouts/pages/reflectly/reflectly.dart';
 import 'package:tryouts/pages/skeleton_text/skeleton_text.dart';
 
@@ -17,5 +18,10 @@ List<Map<String, dynamic>> exampleData = [
     'name': 'drag_drop',
     'displayText': 'Drag and Drop game',
     'page': DragDropPage()
+  },
+  {
+    'name': 'Giphy Page',
+    'displayText': 'Page bottom Navigation Bar',
+    'page': GiphyPage()
   }
 ];
